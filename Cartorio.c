@@ -141,7 +141,8 @@ int main()
 		//Limguagem
 		printf("\t1 - Registrar Nomes\n");
 		printf("\t2 - Consultar Nomes\n");
-		printf("\t3 - Deletar   Nomes\n\n");
+		printf("\t3 - Deletar   Nomes\n");
+		printf("\t4 - Sair do Sistema\n");
 		printf("	Opção: ");
 		
 		// Definições dps valores
@@ -164,6 +165,11 @@ int main()
 			case 3:
 			deletar();
 			break;				
+			
+			case 4:
+			printf("Obrigado por utlizar nosso sistema!");
+			return 0;
+			break;
 			
 			default:
 			 printf("\n\tOpção não dísponivel! \n");
